@@ -104,6 +104,9 @@ We can also see from the results that when n = 10, linear search time is faster 
   n^2 + k*log(n) < k * n
   
   Solving for k:
+
   n^2 < (k*n) - (k * log(n))
+
   n^2 < k * (n - log(n))
+  
   n^2 / (n - log(n)) < k
