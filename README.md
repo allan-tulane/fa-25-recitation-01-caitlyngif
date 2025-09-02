@@ -100,7 +100,7 @@ We can also see from the results that when n = 10, linear search time is faster 
 
   It would be more efficient to first sort and then use binary search rather than linear search without sorting for the values of k when:
 
-  worst - case complexity of first sorting and then binary search < worst-case complexity of linear search
+  worst-case complexity of first sorting and then binary search < worst-case complexity of linear search
 
   n^2 + k*log(n) < k * n
   
