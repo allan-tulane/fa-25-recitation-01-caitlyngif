@@ -49,9 +49,6 @@ def _binary_search(mylist, key, left, right):
 
 	###
 
-
-
-
 def time_search(search_fn, mylist, key):
 	"""
 	Return the number of milliseconds to run this
