@@ -100,7 +100,8 @@ We can also see from the results that when n = 10, linear search time is faster 
 
   It would be more efficient to first sort and then use binary search rather than linear search without sorting for the values of k when:
 
-  running times of first sorting and then binary search < linear search
+  running time of first sorting and then binary search < running time of linear search
+
   n^2 + k*log(n) < k * n
   
   Solving for k:
@@ -108,5 +109,5 @@ We can also see from the results that when n = 10, linear search time is faster 
   n^2 < (k*n) - (k * log(n))
 
   n^2 < k * (n - log(n))
-  
+
   n^2 / (n - log(n)) < k
