@@ -39,13 +39,17 @@ We'll compare the running times of `linear_search` and `binary_search` empirical
 - [ ] 4. Describe the worst case input value of `key` for `linear_search`? for `binary_search`? 
 
 **Answer**
+
 Worst case input value of 'key' for 'linear_search' would be if the key was not in the list. This would mean that the function would have to search through all the n items.
+
 Worst case input value of 'key' for 'binary_search' would also be if the key was not in the list. This would mean that the function would have to repeatedly halve the n items the maximum number of times to determine that the key is not there.
 
 - [ ] 5. Describe the best case input value of `key` for `linear_search`? for `binary_search`? 
 
 **Answer**
+
 Best case input value of 'key' for 'linear_search' would be if the key is the first in the list. This is because that would result in just one iteration of the for loop, rather than having to go through n elements.
+
 Best case input value of 'key' for 'binary_search' is when the key is in the middle index because that is the first index checked against the key and would not have to run the recursion call to modify the list's left and right, find the middle of that altered list, and compare it to the key again. 
 
 - [ ] 6. Complete the `time_search` function to compute the running time of a search function. Note that this is an example of a "higher order" function, since one of its parameters is another function.
