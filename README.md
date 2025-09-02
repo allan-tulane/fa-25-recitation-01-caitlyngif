@@ -54,7 +54,16 @@ Best case input value of 'key' for 'binary_search' is when the key is in the mid
 
 - [ ] 8. Call `print_results(compare_search())` and paste the results here:
 
-**TODO: add your timing results here**
+**Timing Results**
+|            n |   linear |   binary |
+|--------------|----------|----------|
+|       10.000 |    0.001 |    0.002 |
+|      100.000 |    0.003 |    0.001 |
+|     1000.000 |    0.031 |    0.002 |
+|    10000.000 |    0.321 |    0.002 |
+|   100000.000 |    3.290 |    0.003 |
+|  1000000.000 |   31.094 |    0.012 |
+| 10000000.000 |  333.078 |    0.015 |
 
 - [ ] 9. The theoretical worst-case running time of linear search is $O(n)$ and binary search is $O(log_2(n))$. Do these theoretical running times match your empirical results? Why or why not?
 
