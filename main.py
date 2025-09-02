@@ -62,7 +62,7 @@ def time_search(search_fn, mylist, key):
 	You'll have to multiple by 1000 to get milliseconds.
 
 	Params:
-	  sort_fn.....the search function
+	  search_fn.....the search function
 	  mylist......the list to search
 	  key.........the search key 
 
