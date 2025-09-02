@@ -2,8 +2,6 @@
 
 **Name (Team Member 1): Caitlyn Gifford**
 
-**Name (Team Member 2):**_________________________
-
 In this recitation, we will investigate asymptotic complexity. Additionally, we will get familiar with the various technologies we'll use for collaborative coding.
 
 To complete this recitation, follow the instructions in this document. Some of your answers will go in this file, and others will require you to edit `main.py`. All tests are in `test_main.py`.
