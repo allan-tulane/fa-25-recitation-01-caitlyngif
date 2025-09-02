@@ -90,7 +90,7 @@ We can also see from the results that when n = 10, linear search time is faster 
 
   + For binary search? 
   
-  *Answer**
+  **Answer**
 
   Including the sorting time of $\Theta(n^2)$ to initially sort the list, worst-case complexity of binary search of $n$ elements just one time would be $\Theta(n^2 + log(n))$. This means that searching it $k$ times would be $\Theta(n^2 + k*log(n))$. 
 
@@ -100,7 +100,7 @@ We can also see from the results that when n = 10, linear search time is faster 
 
   It would be more efficient to first sort and then use binary search rather than linear search without sorting for the values of k when:
 
-  running time of first sorting and then binary search < running time of linear search
+  worst - case complexity of first sorting and then binary search < worst-case complexity of linear search
 
   n^2 + k*log(n) < k * n
   
