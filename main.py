@@ -33,7 +33,20 @@ def _binary_search(mylist, key, left, right):
 	  index of key in mylist, or -1 if not present.
 	"""
 	### TODO
-
+	
+	if(left>right):
+		return -1
+	
+	midIndex = (left+right)//2
+	midValue = mylist[midIndex]
+	if(midValue == key):
+		return midIndex
+	elif(midValue < key):
+		return _binary_search(mylist, key, midIndex+1, right)
+	elif(midValue > key):
+		return _binary_search(mylist, key, left, midIndex-1)
+	return -1
+	
 	###
 
 
